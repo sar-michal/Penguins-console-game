@@ -16,17 +16,17 @@ Game instructions
    b) Playing the game.  
 6. Placing the penguins:  
    a) In a single turn the player places one of his penguins on an unoccupied ice floe with exactly
-   one fish on it.  
+      one fish on it.  
    b) When placing the penguin, the fish on the target ice floe is collected by the player and
-   removed from the ice floe. This way the ice flow with a penguin does not have any fish.  
+      removed from the ice floe. This way the ice flow with a penguin does not have any fish.  
    c) The move is compulsory.  
    d) The placing phase ends when all the penguins are placed on the game board.  
 7. Playing the game:  
    a) In his turn, the player chooses one of his penguins and moves it in a straight line (only along
-   the grid lines) to another unoccupied ice floe. The previous ice floe is removed from the
-   board. The move over the field without ice floe or over other penguin is forbidden. When
-   placing the penguin, the fish on the target ice floe is collected by the player and removed
-   from the ice floe, immediately.  
+      the grid lines) to another unoccupied ice floe. The previous ice floe is removed from the
+      board. The move over the field without ice floe or over other penguin is forbidden. When
+      placing the penguin, the fish on the target ice floe is collected by the player and removed
+      from the ice floe, immediately.  
    b) If possible, the move is compulsory.  
    c) Game ends when no penguin can make a move.  
 8. The player who collects the most fish wins.
