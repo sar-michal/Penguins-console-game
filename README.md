@@ -101,6 +101,8 @@ Y   -  -  -  -  -
 3 | 3  2  3  2  1 |
 4 | 1  B  1  2  2 |
     -  -  -  -  -
+
+Provide the x and y coordinates of the penguin you want to move:
 ```
 Each player then takes their turn according to the rules of the game.
 
