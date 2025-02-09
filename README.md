@@ -107,6 +107,39 @@ Each player then takes their turn according to the rules of the game.
 ### Autonomous mode
 To run the game in autonomous mode, execute the following command:
 ```sh
-./Autonomous-play/main.exe phase=placement penguins=[#] Autonomous-play/board.txt Autonomous-play/board.txt
+./Autonomous-play/main.exe phase=placement penguins=1 Autonomous-play/board.txt Autonomous-play/board.txt
 ./Autonomous-play/main.exe phase=movement Autonomous-play/board.txt Autonomous-play/board.txt
+```
+The number of penguins should be specified according to the game setup. The correscponding commands may be run in loop for each computer algorithm.
+
+## Autonomous Play File Format
+
+The text file format describing the state of the game:
+
+- **Row 1 (board dimension)**: `m n`
+- **Rows 2 to m+1**: `n` fields separated by single spaces, each field consists of 2 digits: the first digit represents the number of fish (0-3), the second digit represents the player’s number (1 to at most 9 players, or 0 if the tile is unoccupied). A combination of numbers `00` represents the grid field without the ice floe.
+- **Row m+2 and consecutive**: 3 fields separated by single spaces: the first field is the player ID (string of any length, without spaces, without quotation marks), the second field is the player’s number (1 to 9), the third field shows the number of fish collected so far (the score).
+
+### Example board
+```sh
+5 5
+20 10 30 20 10 
+20 10 10 20 10 
+30 30 10 30 10 
+30 20 30 30 20 
+30 30 10 30 10 
+```
+After execution of
+```sh
+./Autonomous-play/main.exe phase=placement penguins=1 Autonomous-play/board.txt Autonomous-play/board.txt
+```
+the resulting board is:
+```sh
+5 5
+20 10 30 20 10 
+20 10 10 20 10 
+30 30 01 30 10 
+30 20 30 30 20 
+30 30 10 30 10 
+Team-E 1 1
 ```
