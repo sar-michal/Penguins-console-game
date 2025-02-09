@@ -1,4 +1,5 @@
 #include "Struct.h"
+#include "GameStateOperations.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>

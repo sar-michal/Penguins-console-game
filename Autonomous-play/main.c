@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "FileInputOutput.h"
-#include "GameStateOperations.h"
+#include "FileInputOutput.c"
+#include "GameStateOperations.c"
 
 int main(int argc, char *argv[])
 {

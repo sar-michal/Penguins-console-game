@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include "InputOutput.h"
-#include "Operations.h"
-#include "Check.h"
+#include "InputOutput.c"
+#include "Operations.c"
+#include "Check.c"
 
 int main()
 {
@@ -34,14 +34,12 @@ int main()
         {
             code1 = system("code1 phase=placement penguins=1 board.txt board.txt");
             code2 = system("code2 phase=placement penguins=1 board.txt board.txt");
-            code3 = system("code3 phase=placement penguins=1 board.txt board.txt");
             if (code1 == 1 && code2 == 1 & code3 ==1) break;
         }
         while(1)//movement
         {
             code1 = system("code1 phase=movement board.txt board.txt");
             code2 = system("code2 phase=movement board.txt board.txt");
-            code3 = system("code3 phase=movement board.txt board.txt");
             if (code1 == 1 && code2 == 1 & code3 ==1) break;
         }
         printf("code1: %d", code1);
